@@ -64,6 +64,8 @@ public class DetailFragment extends Fragment {
                 releaseDate = intent.getStringExtra("movie_release_date");
 
                 //parse into any date format
+                // Code based on citizen conn's answer on StackOverflow
+                // http://stackoverflow.com/questions/6510724/how-to-convert-java-string-to-date-object
                 SimpleDateFormat d = new SimpleDateFormat("yyyy-MM-dd");
                 Date mReleaseDate;
                 try {

@@ -78,7 +78,7 @@ public class PosterFragment extends Fragment {
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                final String BASE_URL = "https://image.tmdb.org/t/p/w500/"; // for images
+                final String BASE_URL = "https://image.tmdb.org/t/p/w500/"; // base path for image location
                 final String _TITLE = "title";
                 final String _RATING = "vote_average";
                 final String _OVERVIEW = "overview";
@@ -91,6 +91,7 @@ public class PosterFragment extends Fragment {
                 String posterPath;
                 String releaseDate;
                 try {
+                    //Pass data into next activity
                     JSONObject movieObj = movieJsonArray.getJSONObject(position);
                     title = movieObj.getString(_TITLE);
                     rating = movieObj.getString(_RATING);
@@ -109,8 +110,6 @@ public class PosterFragment extends Fragment {
                 }
             }
         });
-
-        //TODO: set the gridview setOnItemClickListener...
 
         return rootView;
     }
