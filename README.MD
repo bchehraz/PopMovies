@@ -1,0 +1,1 @@
+API KEY must be stored in api_keys.xml in /res/values[D[D[D[D[D[D[D[D[D[D[D...res/values[D[D[D[D[D[D[D[D[D[C[C[C[C[C[C[C[C[C[C[Cres/values[D[D[D[D[D[D[D[D[D[D/res/values
