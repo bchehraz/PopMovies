@@ -1,1 +1,2 @@
-API KEY must be stored in api_keys.xml in /res/values[D[D[D[D[D[D[D[D[D[D[D...res/values[D[D[D[D[D[D[D[D[D[C[C[C[C[C[C[C[C[C[C[Cres/values[D[D[D[D[D[D[D[D[D[D/res/values
+<h2>API KEY Instructions</h2>
+API Key for TheMovieDB must be stored in the file api_keys.xml in /res/values
